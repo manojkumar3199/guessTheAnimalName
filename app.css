@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row-gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+body > h2 {
+  text-transform: capitalize;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.5rem 0.75rem;
+  margin: 0.1rem;
+}
+
+.button:disabled {
+  color: crimson;
+  border-color: crimson;
+}
+
+.reload-btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+}
